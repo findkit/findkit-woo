@@ -17,5 +17,5 @@ git clone https://github.com/findkit/findkit-woo.git
 Require `findkit-woo.php` from your `functions.php` file
 
 ```php
-require_once __DIR__ . ''/findkit-woo/findkit-woo.php';
+require_once __DIR__ . '/findkit-woo/findkit-woo.php';
 ```
