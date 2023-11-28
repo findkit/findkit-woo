@@ -19,3 +19,5 @@ Require `findkit-woo.php` from your `functions.php` file
 ```php
 require_once __DIR__ . '/findkit-woo/findkit-woo.php';
 ```
+
+Configure your `publicToken` to the `FindkitUI` constructor in `findkit-woo.js`.
