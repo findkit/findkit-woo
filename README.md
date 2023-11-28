@@ -7,7 +7,8 @@ An example how to add Findkit Search for WooCommerce. See the
 
 Download the
 [zip](https://github.com/findkit/findkit-woo/archive/refs/heads/main.zip) to
-your theme root and extract it to `findkit-woo` directory or clone it usin git:
+your theme root and extract it to `findkit-woo` directory or clone it using
+git:
 
 ```
 git clone https://github.com/findkit/findkit-woo.git
@@ -16,5 +17,5 @@ git clone https://github.com/findkit/findkit-woo.git
 Require `findkit-woo.php` from your `functions.php` file
 
 ```php
-require __DIR__ . `/findkit-woo/findkit-woo.php`;
+require_once __DIR__ . ''/findkit-woo/findkit-woo.php';
 ```
