@@ -5,6 +5,7 @@ add_filter('findkit_page_meta', 'findkit_woo_page_meta', 10, 2);
 function findkit_woo_page_meta($meta, $post) {
 	$product = wc_get_product($post->ID);
 
+	// If this is not a product page, return the meta as is
 	if (!$product) {
 		return $meta;
 	}
@@ -40,6 +41,7 @@ function findkit_woo_register_script() {
 	wp_enqueue_script('findkit-woo');
 }
 
+// Convert the script to use ESM modules so we can improt the FindkitUI module
 add_filter('script_loader_tag', 'findkit_woo_make_module_script', 10, 2);
 function findkit_woo_make_module_script($tag, $handle) {
 	if ($handle === 'findkit-woo') {
