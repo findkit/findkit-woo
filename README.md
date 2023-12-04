@@ -1,5 +1,7 @@
 # Findkit for WooCommerce
 
+Read the related blog post <https://www.findkit.com/adding-instant-search-for-woocommerce/>
+
 An example how to add Findkit Search for WooCommerce. See the
 [findkit-woo.php](findkit-woo.php) and [findkit-woo.js](findkit-woo.js) files.
 
